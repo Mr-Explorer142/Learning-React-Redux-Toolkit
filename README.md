@@ -2,8 +2,14 @@
 
 A simple yet comprehensive counter application built with React and Redux Toolkit. This project serves as a hands-on guide to understanding the core concepts of modern Redux, including creating a store, defining slices with reducers, and connecting React components to the state using hooks.
 
-<p align="center"> 
-  <img width="982" height="822" alt="Counter App Screenshot" src="https://github.com/user-attachments/assets/3ac2da46-f403-426c-8039-fdd1a8ec5966" /> 
+<p align="center">
+  <img 
+    width="982" 
+    height="822" 
+    alt="Counter App Screenshot" 
+    src="https://github.com/user-attachments/assets/3ac2da46-f403-426c-8039-fdd1a8ec5966" 
+    style="border-radius: 20px;" 
+  />
 </p>
 
 
