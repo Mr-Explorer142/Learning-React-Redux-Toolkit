@@ -19,7 +19,7 @@ A simple yet comprehensive counter application built with React and Redux Toolki
 -   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="20" height="20"/> **React** – A JavaScript library for building user interfaces.
 -   <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.svg" alt="Redux" width="20" height="20"/> **Redux Toolkit** – The official, opinionated, batteries-included toolset for efficient Redux development.
 -   <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.svg" alt="React-Redux" width="20" height="20"/> **React-Redux** – Official React bindings for Redux.
--   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="20" height="20"/> **Tailwind CSS** – A utility-first CSS framework for rapid UI development.
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.png" alt="Tailwind CSS" width="20" height="20"/>
 
 ## 🚀 Getting Started
 
