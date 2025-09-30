@@ -1,16 +1,53 @@
-# React + Vite
+### 🔹What I learned - (Complete Workflow)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Creating a **store**
+- Import `configureStore` from `@reduxjs/toolkit`
+- Combine slices into the store
 
-Currently, two official plugins are available:
+## 2. Wrapping the **`<App />`** component with **`<Provider />`**
+- Import `Provider` from `react-redux`
+- Pass the store as a prop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 3. Creating a feature named **`counterSlice`**
+- Use `createSlice` to define initial state
+- Add reducers (`increment`, `decrement`, `reset`, etc.)
+- Export actions & reducer
 
-## React Compiler
+## 4. Defining **state and actions**
+- State name: `counter`
+- Actions:  
+  - `increment`  
+  - `decrement`  
+  - `reset`  
+  - `incrementByAmount`  
+  - `decrementByAmount`
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 5. Designing the **UI**
+- Create buttons for each action
+- Style with **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 6. Making the app **functional with hooks**
+- `useSelector` → to read data from store
+- `useDispatch` → to send actions to store
+- `useRef` → to handle input without re-renders
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  How to Run the Project
+1. **Clone the repository**
+2. **Navigate to project folder**
+3. **Install dependencies**
+4. **Start development server**
+
+```bash
+git clone https://github.com/Mr-Explorer142/Learning-React-Redux-Toolkit.git
+cd Learning-React-Redux-Toolkit
+npm install
+npm run dev
+```
+
+## Tech Stack
+-**React** – Frontend library for building UI
+-**Redux Toolkit** – Simplified Redux state management
+-**React-Redux** – Connects React to Redux
+- **Tailwind CSS** – Utility-first CSS framework for styling 
