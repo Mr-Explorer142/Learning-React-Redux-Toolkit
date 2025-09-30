@@ -25,6 +25,7 @@ function App() {
 
   const handleResetClick = () => {
     dispatch(reset());
+    amountRef.current.value = "";
   };
 
   const handleIncrementByAmountClick = () => {
