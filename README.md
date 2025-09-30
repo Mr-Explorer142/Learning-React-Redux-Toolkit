@@ -33,21 +33,33 @@
 
 ---
 
-##  How to Run the Project
-1. **Clone the repository**
-2. **Navigate to project folder**
-3. **Install dependencies**
-4. **Start development server**
+### Installation & Setup
 
-```bash
-git clone https://github.com/Mr-Explorer142/Learning-React-Redux-Toolkit.git
-cd Learning-React-Redux-Toolkit
-npm install
-npm run dev
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Mr-Explorer142/Learning-React-Redux-Toolkit.git](https://github.com/Mr-Explorer142/Learning-React-Redux-Toolkit.git)
+    ```
 
-## Tech Stack
--**React** – Frontend library for building UI
--**Redux Toolkit** – Simplified Redux state management
--**React-Redux** – Connects React to Redux
-- **Tailwind CSS** – Utility-first CSS framework for styling 
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Learning-React-Redux-Toolkit
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+
+## 🛠️ Tech Stack
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="20" height="20"/> **React** – A JavaScript library for building user interfaces.
+- <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.svg" alt="Redux" width="20" height="20"/> **Redux Toolkit** – The official, opinionated, batteries-included toolset for efficient Redux development.
+- <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.svg" alt="React-Redux" width="20" height="20"/> **React-Redux** – Official React bindings for Redux.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="20" height="20"/> **Tailwind CSS** – A utility-first CSS framework for rapid UI development.
